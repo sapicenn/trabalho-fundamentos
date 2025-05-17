@@ -1,0 +1,60 @@
+body {
+    background-color:lavenderblush;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    color: maroon;
+    text-align: center;
+}
+
+#paragrafo {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+#hobbies {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+li {
+    padding: 5px;
+}
+
+#livro {
+    border-radius: 10px;
+}
+
+table, th, td {
+  border: 2px dashed maroon;
+  border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+a {
+    font-size: 20px;
+}
+
+a:hover {
+    color: maroon;
+}
+
+#botao {
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
